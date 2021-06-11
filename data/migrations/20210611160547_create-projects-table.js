@@ -1,5 +1,3 @@
-Use the `data/migrations` folder to keep your migration(s) as per your knexfile
-
 exports.up = function (knex) {
     return knex.schema.createTable("projects", table => {
         table.increments("project_id");
